@@ -3,7 +3,7 @@ def bucar_numero_en_lista(num, lista):
     # Recorre la lista con la funcion enumerate
     for i, item in enumerate(lista):
         if item == num:
-            indice = num
+            indice = i
             # Romper el bucle
             break
     return indice
